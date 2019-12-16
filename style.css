@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-row-gap: 2em;
+}
+
+.container h1, .container p {
+    grid-column: span 3;
+    margin: 0 auto;
+}
